@@ -1,0 +1,171 @@
+Epsilon-Support Vector Regression	Extremely Random Forest	LinearRegression	Mean of training set	Nearest-Neighbor	RASPDeep	Random Forest	Support Vector Regression
+(<class 'sklearn.svm.classes.SVR'>, {'C': 10, 'epsilon': 0.1, 'kernel': 'rbf'})	(<class 'sklearn.ensemble.forest.ExtraTreesRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.linear_model.base.LinearRegression'>, {})	(<class 'sklearn.dummy.DummyRegressor'>, {})	(<class 'sklearn.neighbors.regression.KNeighborsRegressor'>, {'n_neighbors': 5})	"round_epochs                    71
+val_loss         3.992297130864817
+loss             4.194449357052783
+lr                             0.3
+batch_size                       8
+epochs                         250
+dropout1                       0.1
+dropout2                       0.1
+loss_fn         mean_squared_error
+opt                            sgd
+activation1                    elu
+activation2                    elu
+node1                           20
+node2                           10
+initializer        VarianceScaling
+r2_score_val              0.651008
+Name: 2, dtype: object"	(<class 'sklearn.ensemble.forest.RandomForestRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.svm.classes.LinearSVR'>, {'C': 10, 'epsilon': 0.0})
+(<class 'sklearn.svm.classes.SVR'>, {'C': 10, 'epsilon': 0.1, 'kernel': 'rbf'})	(<class 'sklearn.ensemble.forest.ExtraTreesRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.linear_model.base.LinearRegression'>, {})	(<class 'sklearn.dummy.DummyRegressor'>, {})	(<class 'sklearn.neighbors.regression.KNeighborsRegressor'>, {'n_neighbors': 5})	"round_epochs                   191
+val_loss         4.197326249175972
+loss            3.8737800589808216
+lr                             0.3
+batch_size                       8
+epochs                         250
+dropout1                       0.1
+dropout2                       0.1
+loss_fn         mean_squared_error
+opt                            sgd
+activation1                    elu
+activation2                    elu
+node1                           20
+node2                           10
+initializer        VarianceScaling
+r2_score_val              0.646134
+Name: 2, dtype: object"	(<class 'sklearn.ensemble.forest.RandomForestRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.svm.classes.LinearSVR'>, {'C': 1, 'epsilon': 0.0})
+(<class 'sklearn.svm.classes.SVR'>, {'C': 10, 'epsilon': 0.1, 'kernel': 'rbf'})	(<class 'sklearn.ensemble.forest.ExtraTreesRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.linear_model.base.LinearRegression'>, {})	(<class 'sklearn.dummy.DummyRegressor'>, {})	(<class 'sklearn.neighbors.regression.KNeighborsRegressor'>, {'n_neighbors': 5})	"round_epochs                   250
+val_loss         3.765256771674523
+loss            3.8804257084439686
+lr                             0.3
+batch_size                       8
+epochs                         250
+dropout1                       0.1
+dropout2                       0.1
+loss_fn         mean_squared_error
+opt                            sgd
+activation1                    elu
+activation2                    elu
+node1                           20
+node2                           10
+initializer        VarianceScaling
+r2_score_val              0.717459
+Name: 2, dtype: object"	(<class 'sklearn.ensemble.forest.RandomForestRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.svm.classes.LinearSVR'>, {'C': 1, 'epsilon': 0.0})
+(<class 'sklearn.svm.classes.SVR'>, {'C': 10, 'epsilon': 0.1, 'kernel': 'rbf'})	(<class 'sklearn.ensemble.forest.ExtraTreesRegressor'>, {'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.linear_model.base.LinearRegression'>, {})	(<class 'sklearn.dummy.DummyRegressor'>, {})	(<class 'sklearn.neighbors.regression.KNeighborsRegressor'>, {'n_neighbors': 10})	"round_epochs                    88
+val_loss         3.948137149110541
+loss             4.025847779787504
+lr                               1
+batch_size                       8
+epochs                         250
+dropout1                       0.1
+dropout2                       0.1
+loss_fn         mean_squared_error
+opt                            sgd
+activation1                    elu
+activation2                    elu
+node1                           20
+node2                           10
+initializer        VarianceScaling
+r2_score_val              0.677631
+Name: 4, dtype: object"	(<class 'sklearn.ensemble.forest.RandomForestRegressor'>, {'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.svm.classes.LinearSVR'>, {'C': 1, 'epsilon': 0.0})
+(<class 'sklearn.svm.classes.SVR'>, {'C': 10, 'epsilon': 0.1, 'kernel': 'rbf'})	(<class 'sklearn.ensemble.forest.ExtraTreesRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.linear_model.base.LinearRegression'>, {})	(<class 'sklearn.dummy.DummyRegressor'>, {})	(<class 'sklearn.neighbors.regression.KNeighborsRegressor'>, {'n_neighbors': 5})	"round_epochs                   144
+val_loss         4.141788635220561
+loss             3.848446882521356
+lr                               1
+batch_size                       8
+epochs                         250
+dropout1                       0.1
+dropout2                       0.1
+loss_fn         mean_squared_error
+opt                            sgd
+activation1                    elu
+activation2                    elu
+node1                           20
+node2                           10
+initializer        VarianceScaling
+r2_score_val              0.655388
+Name: 4, dtype: object"	(<class 'sklearn.ensemble.forest.RandomForestRegressor'>, {'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.svm.classes.LinearSVR'>, {'C': 0.1, 'epsilon': 0.0})
+(<class 'sklearn.svm.classes.SVR'>, {'C': 10, 'epsilon': 0.1, 'kernel': 'rbf'})	(<class 'sklearn.ensemble.forest.ExtraTreesRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.linear_model.base.LinearRegression'>, {})	(<class 'sklearn.dummy.DummyRegressor'>, {})	(<class 'sklearn.neighbors.regression.KNeighborsRegressor'>, {'n_neighbors': 5})	"round_epochs                   222
+val_loss        3.9173970205800517
+loss            3.6952459495384375
+lr                               1
+batch_size                       8
+epochs                         250
+dropout1                       0.1
+dropout2                       0.1
+loss_fn         mean_squared_error
+opt                            sgd
+activation1                    elu
+activation2                    elu
+node1                           20
+node2                           10
+initializer           RandomNormal
+r2_score_val              0.689632
+Name: 5, dtype: object"	(<class 'sklearn.ensemble.forest.RandomForestRegressor'>, {'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.svm.classes.LinearSVR'>, {'C': 1, 'epsilon': 0.0})
+(<class 'sklearn.svm.classes.SVR'>, {'C': 10, 'epsilon': 0.1, 'kernel': 'rbf'})	(<class 'sklearn.ensemble.forest.ExtraTreesRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.linear_model.base.LinearRegression'>, {})	(<class 'sklearn.dummy.DummyRegressor'>, {})	(<class 'sklearn.neighbors.regression.KNeighborsRegressor'>, {'n_neighbors': 5})	"round_epochs                   250
+val_loss         4.004258993622306
+loss            3.7477512768098524
+lr                             0.3
+batch_size                       8
+epochs                         250
+dropout1                       0.1
+dropout2                       0.1
+loss_fn         mean_squared_error
+opt                            sgd
+activation1                    elu
+activation2                    elu
+node1                           20
+node2                           10
+initializer        VarianceScaling
+r2_score_val              0.680574
+Name: 2, dtype: object"	(<class 'sklearn.ensemble.forest.RandomForestRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.svm.classes.LinearSVR'>, {'C': 0.1, 'epsilon': 0.0})
+(<class 'sklearn.svm.classes.SVR'>, {'C': 10, 'epsilon': 0.1, 'kernel': 'rbf'})	(<class 'sklearn.ensemble.forest.ExtraTreesRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.linear_model.base.LinearRegression'>, {})	(<class 'sklearn.dummy.DummyRegressor'>, {})	(<class 'sklearn.neighbors.regression.KNeighborsRegressor'>, {'n_neighbors': 5})	"round_epochs                   151
+val_loss         4.535389431706675
+loss             3.821639922282079
+lr                               1
+batch_size                       8
+epochs                         250
+dropout1                       0.1
+dropout2                       0.1
+loss_fn         mean_squared_error
+opt                            sgd
+activation1                    elu
+activation2                    elu
+node1                           20
+node2                           10
+initializer        VarianceScaling
+r2_score_val              0.649255
+Name: 4, dtype: object"	(<class 'sklearn.ensemble.forest.RandomForestRegressor'>, {'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.svm.classes.LinearSVR'>, {'C': 0.1, 'epsilon': 0.0})
+(<class 'sklearn.svm.classes.SVR'>, {'C': 10, 'epsilon': 0.1, 'kernel': 'rbf'})	(<class 'sklearn.ensemble.forest.ExtraTreesRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.linear_model.base.LinearRegression'>, {})	(<class 'sklearn.dummy.DummyRegressor'>, {})	(<class 'sklearn.neighbors.regression.KNeighborsRegressor'>, {'n_neighbors': 5})	"round_epochs                   188
+val_loss         4.376561399106379
+loss            3.6897265822737366
+lr                               1
+batch_size                       8
+epochs                         250
+dropout1                       0.1
+dropout2                       0.1
+loss_fn         mean_squared_error
+opt                            sgd
+activation1                    elu
+activation2                    elu
+node1                           20
+node2                           10
+initializer        VarianceScaling
+r2_score_val              0.670145
+Name: 4, dtype: object"	(<class 'sklearn.ensemble.forest.RandomForestRegressor'>, {'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.svm.classes.LinearSVR'>, {'C': 0.1, 'epsilon': 0.0})
+(<class 'sklearn.svm.classes.SVR'>, {'C': 10, 'epsilon': 0.1, 'kernel': 'rbf'})	(<class 'sklearn.ensemble.forest.ExtraTreesRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 100})	(<class 'sklearn.linear_model.base.LinearRegression'>, {})	(<class 'sklearn.dummy.DummyRegressor'>, {})	(<class 'sklearn.neighbors.regression.KNeighborsRegressor'>, {'n_neighbors': 5})	"round_epochs                   143
+val_loss          4.09103325196913
+loss             3.843213845966579
+lr                               1
+batch_size                       8
+epochs                         250
+dropout1                       0.1
+dropout2                       0.1
+loss_fn         mean_squared_error
+opt                            sgd
+activation1                    elu
+activation2                    elu
+node1                           20
+node2                           10
+initializer        VarianceScaling
+r2_score_val              0.689761
+Name: 4, dtype: object"	(<class 'sklearn.ensemble.forest.RandomForestRegressor'>, {'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 200})	(<class 'sklearn.svm.classes.LinearSVR'>, {'C': 0.1, 'epsilon': 0.0})
